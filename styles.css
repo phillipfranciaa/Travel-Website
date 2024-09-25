@@ -1,0 +1,207 @@
+/* styles.css */
+
+/* General body styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #00796b;
+}
+
+/* Destination card styles */
+.destination-card img {
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+/* Contact section styles */
+.contact-section {
+  padding: 40px 0;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #004d40;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #00796b !important;
+}
+
+.social-media-buttons {
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+/* Office Hours Section */
+#office-hours {
+  padding: 20px;
+  text-align: center; /* Center text horizontally */
+}
+
+.office-hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* Center list within its container */
+  text-align: left; /* Align text to left within the list */
+}
+
+.office-hours-list li {
+  margin: 10px 0;
+}
+
+.office-hours-list strong {
+  font-weight: bold;
+}
+
+/* Center office hours section */
+.row .col.m6 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+/* Carousel Section */
+#carousel {
+  margin-top: 20px;
+}
+
+.carousel .carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  background: url("/images/hero2.jpg") no-repeat center center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.carousel img {
+  height: 250;
+  width: 250;
+}
+
+/*Client Reviews*/
+blockquote {
+  border-left: 5px solid #2296f3;
+}
+
+.logo-section {
+  display: block; /* Remove flex */
+  text-align: center; /* Center logos horizontally */
+}
+
+.logo-container {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between logos */
+  width: 200px; /* Set desired width */
+  height: 200px; /* Set desired height */
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjust to 'cover' for different cropping */
+}
+
+.logo-container {
+  width: 16%;
+}
+
+
+
+
+@media only screen and (max-width: 345px) {
+    .logo-container {
+        width: 60% !important;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .logo-container {
+        width: 60% !important;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo-container {
+        width: 55% !important;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo-container {
+        width: 65%;
+        height: 50px;
+        margin-left: 60px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo-container {
+        width: 15%;
+        height: 100px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

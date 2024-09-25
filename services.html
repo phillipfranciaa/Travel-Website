@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Travel Website</title>
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+     <!-- Material Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar blue">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo">Travel Site</a>
+            <!-- Hamburger Icon -->
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html#destinations">Destinations</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+            </ul>
+        </div>
+
+        <!-- Collapsible Menu for Mobile -->
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="index.html#destinations">Destinations</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Page Content -->
+    <div class="container">
+        <h1>What We Offer</h1>
+
+        <!-- Package 1 -->
+        <div class="section">
+            <h2>Beach Getaway</h2>
+            <p>Enjoy a relaxing beach vacation with stunning views and luxurious accommodations. Perfect for unwinding
+                and soaking up the sun.</p>
+        </div>
+        <hr>
+        <!-- Package 2 -->
+        <div class="section">
+            <h2>Mountain Adventure</h2>
+            <p>Experience thrilling mountain adventures with guided hikes and breathtaking scenery. Ideal for outdoor
+                enthusiasts and nature lovers.</p>
+        </div>
+        <hr>
+        <!-- Package 3 -->
+        <div class="section">
+            <h2>City Escape</h2>
+            <p>Explore vibrant city life with guided tours, shopping, and cultural experiences. A great option for those
+                who enjoy urban exploration.</p>
+        </div>
+        <hr>
+        <!-- Package 4 -->
+        <div class="section">
+            <h2>Visa Application</h2>
+            <p>Handle the entire application process, from gathering necessary documents to submitting the application
+                and following up on its status.</p>
+        </div>
+        <hr>
+        <!-- Package 4 -->
+        <div class="section">
+            <h2>Van Rental</h2>
+            <p>Provides rental vehicles for various purposes.</p>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Internal JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit(); // Initialize Materialize components
+        });
+    </script>
+</body>
+
+</html>
